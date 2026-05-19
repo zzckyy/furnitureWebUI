@@ -2,6 +2,7 @@ const img1 = "img/charis.jpg";
 const img2 = "img/cabinet.jpg";
 const img3 = "img/mirror.jpg";
 const img4 = "img/sofa.jpg";
+const lamp = "img/lamp.jpg";
 
 function imageDisplay(selected, imageSrc){
  document.getElementById("displayimg").src = imageSrc;
