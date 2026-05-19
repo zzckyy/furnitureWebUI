@@ -9,6 +9,8 @@
       href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+
+    <script src="main.js"></script>
   </head>
   <body>
     <div
@@ -71,15 +73,15 @@
     <div class="is-flex is-justify-content-center is-flex-direction-column is-align-items-center p-4 m-4">
         <h1>Best Selling Product</h1>
         <div class="pill is-flex is-justify-content-space-evenly p-2 my-2">
-            <a href="" class="active">Chair</a>
-            <a href="">Cabinet</a>
-            <a href="">Lamp</a>
-            <a href="">Table</a>
+            <button class="active" onclick="imageDisplay(this, img1)">Chair</button>
+            <button onclick="imageDisplay(this, img2)">Cabinet</button>
+            <button onclick="imageDisplay(this, img3)">Lamp</button>
+            <button onclick="imageDisplay(this, img4)">Table</button>
         </div>
 
-        <div class=" prod-display p-2">
-            <img src="img/charis.jpg" alt="" class="">
-        </div>
+            <img src="img/charis.jpg" alt="" id="displayimg" class="prod-display">
     </div>
   </body>
+
+    
 </html>
