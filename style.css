@@ -18,11 +18,11 @@
     width: 30%;
 }
 
-.card p{
-    width: 60dvh !important;
+.sec p{
+    width: 60dvh;
 }
 
-.card h3{
+.sec h3{
     font-size: 2rem;
     color:black;
     font-weight: bold;
