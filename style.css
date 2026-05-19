@@ -19,7 +19,7 @@
 }
 
 .card p{
-    width: 80%;
+    width: 60dvh !important;
 }
 
 .card h3{
@@ -35,5 +35,11 @@
 }
 
 .brand{
-    ;
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.hidden{
+    display: none;
 }
