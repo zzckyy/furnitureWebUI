@@ -37,6 +37,15 @@ FURNIHOUSE is a modern, interactive landing page built to showcase furniture pro
 
 A sleek landing page showcasing furniture collections with a modern touch.
 
+<img src="preview/ss1.png" />
+<img src="preview/ss2.png" />
+
+<style>
+    img{
+        width: 60%;
+    }
+</style>
+
 ---
 
 ## 🚀 Getting Started
