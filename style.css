@@ -62,11 +62,11 @@ button:hover{
 
 .hero-text{
     color: var(--fg);
-    width: 30%;
+    width: 40%;
 }
 
 .sec{
-    width: 440px;
+    width: 60dvh;
     background-color: var(--fg);
     margin-inline: 8px;
     margin-top: 16px;
@@ -86,10 +86,11 @@ button:hover{
 }
 
 .left h2{
-    min-width: 50dvh;
+    /* min-width: 50dvh; */
     color: var(--text);
     font-weight: bold;
     font-size: large;
+    padding-right: 3rem;
     
 }
 
